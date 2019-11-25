@@ -4,19 +4,20 @@ one:
   title: ProductOne
   description: MyTextOne
   image_url: ruby.jpg
-  price: 9.99
+  price: 15.99
 
 two:
   title: ProductTwo
   description: MyTextTwo
   image_url: ruby.jpg
-  price: 10.00
+  price: 10.99
 
 ruby:
-  title: Programming Ruby 1.9 & 2.0
+  title: Lasagne
   description:
-    Ruby is the fastest growing and most exciting dynamic language
-    out there. If you need to get working programs delivered fast,
-    you should add Ruby to your toolbox.
-  image_url: ruby.jpg
-  price: 49.95
+    Lasagne commonly refers to a culinary dish made with stacked layers of pasta
+    alternated with sauces and ingredients such as meats, vegetables and chees,
+    and is sometimes topped with melted grated cheese. The resulting lasagne is 
+    cut into single-serving square portions.
+  image_url: lasagne.jpg
+  price: 16.95

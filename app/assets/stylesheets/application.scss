@@ -24,7 +24,7 @@ header.main {
   @media (min-width: 30em) {
     text-align: left; // left align on desktop
   }
-  background: #282;
+  background: rgb(59, 70, 69);
   margin: 0;
   h1 {
     display: none;
@@ -32,10 +32,10 @@ header.main {
 }
 
 .notice, #notice {
-  background: #ffb;
+  background: rgb(136, 136, 35);
   border-radius: 0.5em;
-  border: solid 0.177em #882;
-  color: #882;
+  border: solid 0.177em rgb(56, 185, 194);
+  color: rgb(202, 46, 119);
   font-weight: bold;
   margin-bottom: 1em;
   padding: 1em 1.414em;
@@ -59,7 +59,7 @@ header.main {
 
     nav {
       padding-bottom: 1em;
-      background: #141;
+      background: rgb(100, 167, 100);
       text-align: center;  // mobile has centered nav
       @media (min-width: 30em) {
         text-align: left; // desktop nav is left-aligned
@@ -69,7 +69,7 @@ header.main {
           h2 {
             margin-top: 0;
           }
-          background: white;
+          background: rgb(138, 118, 118);
           border-radius: 0.5em;
           margin: 1em;
           padding: 1.414em;
@@ -125,7 +125,7 @@ header.main {
     padding: 1em 0;
   }
   input, textarea, select, option {
-    border: solid thin #888;
+    border: solid thin rgb(153, 192, 187);
     box-sizing: border-box;
     font-size: 1em;
     padding: 0.5em;
@@ -202,6 +202,6 @@ nav.logged_in_nav {
     text-transform: uppercase;
   }
   input[type="submit"]:hover {
-    color: white;
+    color: rgb(158, 59, 59);
   }
 }
